@@ -1,0 +1,9 @@
+[package]
+name = "mouse-jiggler"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+core-foundation = "0.9"
+core-graphics = "0.23"
+enigo = "0.1"
