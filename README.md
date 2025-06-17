@@ -1,4 +1,4 @@
-Mouse Jiggler
+Mouse Jiggler (macOS)
 
 A simple Rust utility that simulates small mouse movements (“jiggles”) after a specified period of user inactivity to prevent the system from going idle or activating screen savers.
 Features
