@@ -13,5 +13,15 @@ fn get_idle() -> u64 {
 }
 
 fn main() {
-    println!("Hello, world!");
+    let threshold = 60_000;
+    let mut nigo = Enigo::new();
+
+    loop {
+        let idle = get_idle();
+        if idle > threshold {
+            enigo.mouse_move_relative(1, 0);
+            enigo.mouse_move_relative(-1, 0);
+        }
+        sleep(Duration::from_secs(5));
+    }
 }
